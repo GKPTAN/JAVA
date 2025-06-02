@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cff0ad1d-10ec-40e4-9446-02b8f6ed60b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/CursoDeJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/AreaDaFiguraGeometrica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/ConversorDeTemperatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Desconto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Estudos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Fatorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Filme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/JogoDeAdivinhacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Numeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Perfil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Soma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Tabuada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/TipoDeNumero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +68,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Cliente\Documents\Estudos\JAVA" />
       <recent name="C:\Users\Cliente\Documents\Estudos\JAVA\primeiro-projeto" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
