@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cff0ad1d-10ec-40e4-9446-02b8f6ed60b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/CursoDeJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/AreaDaFiguraGeometrica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/ConversorDeTemperatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Desconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Estudos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Fatorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/JogoDeAdivinhacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Numeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Perfil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Soma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Tabuada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/TipoDeNumero.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2xhP8LzuL6AnNkNyF1F9QyHJTQh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AreaDaFiguraGeometrica.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConversorDeTemperatura.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Desconto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Estudos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fatorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Filme.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JogoDeAdivinhacao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Numeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Perfil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Produto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Soma.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tabuada.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TipoDeNumero.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Cliente/Documents/Estudos/JAVA/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Cliente\Documents\Estudos\JAVA\primeiro-projeto" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.alura.bytebank" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AreaDaFiguraGeometrica">
+    <configuration name="AreaDaFiguraGeometrica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AreaDaFiguraGeometrica" />
+      <module name="CursoDeJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fatorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fatorial" />
+      <module name="CursoDeJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Numeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Numeros" />
+      <module name="CursoDeJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tabuada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tabuada" />
+      <module name="CursoDeJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TipoDeNumero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TipoDeNumero" />
+      <module name="CursoDeJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AreaDaFiguraGeometrica" />
+        <item itemvalue="Application.Fatorial" />
+        <item itemvalue="Application.TipoDeNumero" />
+        <item itemvalue="Application.Tabuada" />
+        <item itemvalue="Application.Numeros" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cff0ad1d-10ec-40e4-9446-02b8f6ed60b0" name="Changes" comment="" />
+      <created>1748387175001</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748387175001</updated>
+    </task>
+    <servers />
+  </component>
+</project>
