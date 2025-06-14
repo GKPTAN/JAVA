@@ -5,12 +5,24 @@ public class Aluno {
     private double totalDeNotas;
     private double media;
 
-    public void setNome(String nome) {
+    public Aluno(String nome) {
         this.nome = nome;
     }
 
     public void setIdade(int idade) {
         this.idade = idade;
+    }
+
+    public double getMedia() {
+        return media;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getIdade() {
+        return idade;
     }
 
     public void exibirInformacoes() {
@@ -23,7 +35,7 @@ public class Aluno {
     * Essa função só pode ser chamada duas vezes
     */
     public void insereNota(double nota) {
-        if (totalDeNotas > 2) {
+        if (totalDeNotas > 4) {
             System.out.println("o sistema só pode receber duas notas!");
         } else {
             this.nota += nota;

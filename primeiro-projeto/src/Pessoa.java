@@ -25,4 +25,9 @@ public class Pessoa {
             System.out.println(nome + " é menor de idade");
         }
     }
+
+    @Override
+    public String toString() {
+        return "Nome: " + this.getNome() + " - Idade: " + this.getIdade();
+    }
 }
