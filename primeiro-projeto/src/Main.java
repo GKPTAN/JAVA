@@ -4,7 +4,7 @@ import java.time.temporal.ChronoUnit;
 
 public class Main {
     public static void main(String[] args) {
-        LocalDate dataCompra = LocalDate.now();
+        /* LocalDate dataCompra = LocalDate.now();
         LocalDate dataPrimeiraParcela = LocalDate.of(2025, 5, 15);
         LocalDate dataSegundaParcela = dataPrimeiraParcela.plusDays(30);
         System.out.println("Data da compra: " + dataCompra);
@@ -31,6 +31,17 @@ public class Main {
         LocalDate dataPagamento = LocalDate.parse("2025-07-30");
         //Period periodo = Period.between(dataCompra, dataPagamento);
         long diferencaDias = ChronoUnit.DAYS.between(dataCompra, dataPagamento);
-        System.out.println("Diferença em dias: " + diferencaDias + " dias");
+        System.out.println("Diferença em dias: " + diferencaDias + " dias"); */
+
+        Visitante pessoa1 = new Visitante("Guilherme", 24);
+        pessoa1.exibirDados();
+        Visitante pessoa4 = new Visitante("João", 85);
+        pessoa4.exibirDados();
+        Visitante pessoa2 = new Visitante("André", 28);
+        pessoa2.exibirDados();
+        Visitante pessoa3 = new Visitante("Liliam", 23);
+        pessoa3.exibirDados();
+
+        Visitante.exibirEstatisticas();
     }
 }

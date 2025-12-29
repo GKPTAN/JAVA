@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cff0ad1d-10ec-40e4-9446-02b8f6ed60b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Metodos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Jogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Visitante.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primeiro-projeto/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/primeiro-projeto/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primeiro-projeto/src/Soma.java" beforeDir="false" afterPath="$PROJECT_DIR$/primeiro-projeto/src/Soma.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,14 +89,16 @@
     "Application.arranjo.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/Cliente/Documents/Estudos/JAVA/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -105,9 +111,16 @@
       <recent name="br.com.alura.bytebank" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Metodos">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ArrayMetthods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayMetthods" />
+      <module name="CursoDeJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CursoDeJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,21 +140,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tarefa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="prova.Tarefa" />
-      <module name="CursoDeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="prova.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="arranjo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arranjo" />
+    <configuration name="Soma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Soma" />
       <module name="CursoDeJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,13 +149,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Soma" />
         <item itemvalue="Application.Metodos" />
         <item itemvalue="Application.Matriz" />
         <item itemvalue="Application.ArrayMetthods" />
-        <item itemvalue="Application.arranjo" />
-        <item itemvalue="Application.Tarefa" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -166,5 +173,9 @@
       <updated>1748387175001</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
