@@ -1,6 +1,8 @@
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,15 +35,88 @@ public class Main {
         long diferencaDias = ChronoUnit.DAYS.between(dataCompra, dataPagamento);
         System.out.println("Diferença em dias: " + diferencaDias + " dias"); */
 
-        Visitante pessoa1 = new Visitante("Guilherme", 24);
-        pessoa1.exibirDados();
-        Visitante pessoa4 = new Visitante("João", 85);
-        pessoa4.exibirDados();
-        Visitante pessoa2 = new Visitante("André", 28);
-        pessoa2.exibirDados();
-        Visitante pessoa3 = new Visitante("Liliam", 23);
-        pessoa3.exibirDados();
+        Scanner scanner = new Scanner(System.in);
 
-        Visitante.exibirEstatisticas();
+        int count=0;
+        int option = 0;
+        int sair = 1;
+        ArrayList<Patient> patients = new ArrayList<>();
+
+        String menu = """
+                \n--------- HOSPITAL ---------
+                1 — Cadastrar pacientes
+                2 — Exibir relatório
+                3 — Pacientes cadastrados
+                4 — Sair do sistema
+                ----------------------------
+                """;
+        while(option != 4) {
+            System.out.println(menu);
+            option = scanner.nextInt();
+            scanner.nextLine();
+            switch(option) {
+                case 1:
+                    System.out.println("Quantos Pacientes você quer cadastrar? ");
+                    count = scanner.nextInt();
+                    scanner.nextLine();
+                    for(int i = 0; i < count; i++) {
+                        System.out.printf("Nome do paciente %d: ", (i + 1));
+                        patients.add(new Patient(scanner.nextLine()));
+                    }
+                    break;
+                case 2:
+                    Patient.displayReport();
+                    break;
+                case 3:
+                    sair = 1;
+                    while (sair != 0) {
+                        int escolha;
+                        System.out.println("--------------------- Pacientes cadastrados ---------------------");
+                        for(int i = 0; i < patients.size(); i++) {
+                            System.out.println((i + 1) + " — " + patients.get(i).getName());
+                        }
+                        System.out.println("Digite o número do paciente para mais opções ou 0 para voltar: ");
+                        escolha = scanner.nextInt();
+                        scanner.nextLine();
+                        if (escolha == 0) {
+                            sair = 0;
+                        } else if (escolha > 0 && escolha <= patients.size()) {
+                            Patient selectedPatient = patients.get(escolha - 1);
+                            System.out.println("\nO que você quer fazer com " + selectedPatient.getName() + "?");
+                            System.out.println("1 — Aplicar medicamento no paciente");
+                            System.out.println("2 — Dar alta no paciente");
+                            System.out.println("3 — Voltar");
+                            int acao = scanner.nextInt();
+                            scanner.nextLine();
+                            switch (acao) {
+                                case 1:
+                                    selectedPatient.applyMedication();
+                                    break;
+                                case 2:
+                                    selectedPatient.discharge();
+                                    patients.remove(selectedPatient);
+                                    break;
+                                case 3:
+                                    System.out.println("Voltando...");
+                                    break;
+                                default:
+                                    System.out.println("Opção inválida!");
+                                    break;
+                            }
+
+                        } else {
+                            System.out.println("Opção inválida");
+                        }
+                    }
+                    break;
+                case 4:
+                    System.out.println("Programa finalizado");
+                    break;
+                default:
+                    System.out.println("Opção inválida!");
+                    System.out.println(" ");
+                    break;
+            }
+        }
     }
 }
