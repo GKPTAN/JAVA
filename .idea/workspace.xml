@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cff0ad1d-10ec-40e4-9446-02b8f6ed60b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/SerVivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Treatment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/AnimalA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Formiga.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/MainA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Pix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primeiro-projeto/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/primeiro-projeto/src/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primeiro-projeto/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/primeiro-projeto/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,53 +55,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Agendamento.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AreaDaFiguraGeometrica.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayMetthods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Avaliacao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ControleDeFluxo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConversorDeTemperatura.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Datas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Desconto.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DiasUteis.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Entrega.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Estudos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fatorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Filme.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FormatoHora.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Horarios.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Item.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JogoDeAdivinhacao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Livro.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Matriz.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Metodos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Notificacoes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Numeros.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Perfil.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Produto.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Soma.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Tabuada.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Tarefa.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TipoDeNumero.executor&quot;: &quot;Run&quot;,
-    &quot;Application.arranjo.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Cliente/Documents/Estudos/JAVA/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Agendamento.executor": "Run",
+    "Application.AreaDaFiguraGeometrica.executor": "Run",
+    "Application.ArrayMetthods.executor": "Run",
+    "Application.Avaliacao.executor": "Run",
+    "Application.ControleDeFluxo.executor": "Run",
+    "Application.ConversorDeTemperatura.executor": "Run",
+    "Application.Datas.executor": "Run",
+    "Application.Desconto.executor": "Run",
+    "Application.DiasUteis.executor": "Run",
+    "Application.Entrega.executor": "Run",
+    "Application.Estudos.executor": "Run",
+    "Application.Fatorial.executor": "Run",
+    "Application.Filme.executor": "Run",
+    "Application.FormatoHora.executor": "Run",
+    "Application.Horarios.executor": "Run",
+    "Application.Item.executor": "Run",
+    "Application.JogoDeAdivinhacao.executor": "Run",
+    "Application.Livro.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainA.executor": "Run",
+    "Application.Matriz.executor": "Run",
+    "Application.Metodos.executor": "Run",
+    "Application.Notificacoes.executor": "Run",
+    "Application.Numeros.executor": "Run",
+    "Application.Perfil.executor": "Run",
+    "Application.Principal.executor": "Run",
+    "Application.Produto.executor": "Run",
+    "Application.Soma.executor": "Run",
+    "Application.Tabuada.executor": "Run",
+    "Application.Tarefa.executor": "Run",
+    "Application.TipoDeNumero.executor": "Run",
+    "Application.arranjo.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Cliente/Documents/Estudos/JAVA/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.intellij.featuresSuggester.FeatureSuggesterConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Cliente\Documents\Estudos\JAVA\primeiro-projeto\src" />
@@ -111,16 +113,16 @@
       <recent name="br.com.alura.bytebank" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="ArrayMetthods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayMetthods" />
+  <component name="RunManager" selected="Application.MainA">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CursoDeJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="MainA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainA" />
       <module name="CursoDeJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainA" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Soma" />
         <item itemvalue="Application.Metodos" />
         <item itemvalue="Application.Matriz" />
-        <item itemvalue="Application.ArrayMetthods" />
       </list>
     </recent_temporary>
   </component>
