@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cff0ad1d-10ec-40e4-9446-02b8f6ed60b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/AnimalA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Formiga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/MainA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Pix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Aguia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Aranha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Macaco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Sapo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/primeiro-projeto/src/Vegetal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primeiro-projeto/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/primeiro-projeto/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primeiro-projeto/src/AnimalA.java" beforeDir="false" afterPath="$PROJECT_DIR$/primeiro-projeto/src/AnimalA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primeiro-projeto/src/Formiga.java" beforeDir="false" afterPath="$PROJECT_DIR$/primeiro-projeto/src/Formiga.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primeiro-projeto/src/SerVivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/primeiro-projeto/src/SerVivo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +80,7 @@
     "Application.JogoDeAdivinhacao.executor": "Run",
     "Application.Livro.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Main1.executor": "Run",
     "Application.MainA.executor": "Run",
     "Application.Matriz.executor": "Run",
     "Application.Metodos.executor": "Run",
@@ -100,7 +105,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.intellij.featuresSuggester.FeatureSuggesterConfigurable"
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -113,7 +118,7 @@
       <recent name="br.com.alura.bytebank" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainA">
+  <component name="RunManager" selected="Application.Main1">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CursoDeJava" />
@@ -121,15 +126,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainA" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main1" />
       <module name="CursoDeJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Matriz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Matriz" />
+    <configuration name="MainA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainA" />
       <module name="CursoDeJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.MainA" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Soma" />
         <item itemvalue="Application.Metodos" />
-        <item itemvalue="Application.Matriz" />
       </list>
     </recent_temporary>
   </component>

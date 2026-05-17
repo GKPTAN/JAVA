@@ -27,7 +27,7 @@ public class Animal implements SerVivo {
     }
 
     @Override
-    public void mover() {
+    public void mover(int x, int y) {
 
     }
 
